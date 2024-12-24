@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   return (
-    <div className='flex justify-center items-center h-screen w-full overflow-hidden bg-zinc-500'>
+    <div className='flex justify-center items-center h-screen w-full overflow-hidden bg-red-100'>
       {userData ? <Card user={userData} /> : <p>Loading...</p>}
     </div>
   );
